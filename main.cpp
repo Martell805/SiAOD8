@@ -51,6 +51,11 @@ int longestPalindrome(const string& s) {
 }
 
 int main() {
-    cout << longestPalindrome("abaccba") << endl;
+    string s;
+    cout << "Enter string to find length of longest palindrome:" << endl;
+    cin >> s;
+
+    cout << "Length of longest palindrome: " << longestPalindrome(s) << endl;
+
     return 0;
 }
